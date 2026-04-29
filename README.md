@@ -63,15 +63,9 @@ The app will run on `http://localhost:3000`.
 
 ## Supabase Setup
 
-Apply the SQL files in `supabase/migrations/` to your Supabase project in order:
+Apply the SQL migration files in the `supabase/migrations/` folder to your Supabase project in order.
 
-1. `202604290001_create_projects.sql`
-2. `20260429002_add_team_tables.sql`
-3. `20260429003_insert_triggers.sql`
-
-If you want sample records for testing, run:
-
-- `supabase/seed/test_data.sql`
+If you want sample records for testing, run the seed SQL from the `supabase/seed/` folder.
 
 ## Available Scripts
 
